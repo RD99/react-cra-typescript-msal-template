@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with Create React App MSAL TypeScript template
+
+## steps to setup
+
+1. Clone this repo
+2. create an app registration in [azure](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
+3. use the credentials from that app registration to fill the data in authConfig.ts and use `npm run start` to run the app.
+4. If the app runs successfully a login button should show to log the user in <br />
+   <img alt="Login Button" src="https://imgur.com/aF5xFwL.png">
+5. Once the user is logged in the templates default greeting screen appears <br />
+   <img alt="Login Button" src="https://imgur.com/JivGCZk.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
